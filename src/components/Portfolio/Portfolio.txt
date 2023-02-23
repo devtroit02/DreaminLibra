@@ -1,0 +1,310 @@
+/* import React from 'react';
+import { Grid } from '@material-ui/core';
+import useStyles from './styles';
+
+
+
+
+
+
+ 
+
+/* const Portfolio = ({  }) => {
+
+    const classes =useStyles();
+    const ColoredLine = ({ color }) => (
+        <hr
+            style={{
+                color: '#5F6C9E' ,
+                backgroundColor: '#5F6C9E ',
+                height: 3
+
+            }}
+        />
+    ); */
+
+
+    const data = [
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png",
+          caption: "Piexeled Digital Portrait"
+        },
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/yyaTrMItRXvJvqck%7CVingie2.png",
+          caption: "Piexeled Digital Portrait"
+        },
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/g4rsVbVpF6cQ6EGb%7CVingie4.png",
+          caption: "DPiexeled Digital Portrait"
+        },
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/mGZsLrPgmGugTFGA%7CVingie.png",
+          caption: "Monochromatic Digital Portrait"
+        },
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/nSFUeUKjO2xfDmwK%7CDevin.png",
+          caption: "Monochromatic Digital Portrait"
+        },
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/Un57Ge0sbaNJhupZ%7CMarriage1.png",
+          caption: "Outline Style Digital Portrait"
+        },
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/vyBr8pXgW9SX8kL9%7CDigital%20Portrait.png",
+          caption: "Outline Style Digital Portrait"
+        },
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/gzYlr0PxfLO1a7Ef%7CLogo.png",
+          caption: "Logo"
+        },
+        {
+          image: "https://cdn.chec.io/merchants/35129/assets/MzI43fiePfBgtjGL%7CLogo1.png",
+          caption: "Logo"
+        }
+      ];
+
+        
+      const captionStyle = {
+        fontSize: '2em',
+        fontWeight: 'bold',
+      }
+      const slideNumberStyle = {
+        fontSize: '20px',
+        fontWeight: 'bold',
+      }
+      return (
+        
+        <>
+
+        
+
+        <Grid spacing = {2}> 
+
+<div class="container">
+    <div class="row">
+      <div class="col sm-12">
+        <div class="card border-0">
+          <img
+            src="https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png" height="400px" width ="450px" link ="https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png"/>
+
+          <h2>10 Reasons Why You Need a Therapist</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          
+         
+        </div>
+      </div>
+    
+
+
+ 
+      <div class="col sm-12">
+        <div class="card border-0">
+          <img
+            src="https://images.unsplash.com/photo-1530903677198-7c9f3577a63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1124&q=80" width = "450px" height="350px"/>
+
+  
+          <h2>10 Reasons Why You Need a Therapist</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          
+         
+        </div>
+      </div>
+      </div>
+  </div>
+     
+   
+
+  </Grid>
+
+
+  <Grid spacing = {4}> 
+
+<div class="container">
+    <div class="row">
+      <div class="col sm-12">
+        <div class="card border-0">
+          <img
+            src="https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png" height="400px" width ="450px" link ="https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png"/>
+
+          <h2>10 Reasons Why You Need a Therapist</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          
+         
+        </div>
+      </div>
+    
+
+
+ 
+      <div class="col sm-4">
+        <div class="card border-0">
+          <img
+            src="https://images.unsplash.com/photo-1530903677198-7c9f3577a63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1124&q=80" width = "450px" height="350px"/>
+
+  
+          <h2>10 Reasons Why You Need a Therapist</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          
+         
+        </div>
+      </div>
+      </div>
+  </div>
+     
+   
+
+  </Grid>
+
+
+
+  <Grid spacing = {4}> 
+
+<div class="container">
+    <div class="row">
+      <div class="col sm-4">
+        <div class="card border-0">
+          <img
+            src="https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png" height="400px" width ="450px" link ="https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png"/>
+
+          <h2>10 Reasons Why You Need a Therapist</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          
+         
+        </div>
+      </div>
+    
+
+
+ 
+      <div class="col sm-4">
+        <div class="card border-0">
+          <img
+            src="https://images.unsplash.com/photo-1530903677198-7c9f3577a63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1124&q=80" width = "450px" height="350px"/>
+
+  
+          <h2>10 Reasons Why You Need a Therapist</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          
+         
+        </div>
+      </div>
+      </div>
+  </div>
+     
+   
+
+  </Grid>
+
+
+
+  <Grid xs = {6}> 
+
+<div class="container">
+    <div class="row">
+      <div class="col sm-4">
+        <div class="card border-0">
+          <img
+            src="https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png" height="400px" width ="450px" link ="https://cdn.chec.io/merchants/35129/assets/nsgyqcDjzpUIHzIU%7CVingie3.png"/>
+
+          <h2>10 Reasons Why You Need a Therapist</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          
+         
+        </div>
+      </div>
+    
+
+
+ 
+      <div class="col sm-4">
+        <div class="card border-0">
+          <img
+            src="https://images.unsplash.com/photo-1530903677198-7c9f3577a63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1124&q=80" width = "450px" height="350px"/>
+
+  
+          <h2>10 Reasons Why You Need a Therapist</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          
+         
+        </div>
+      </div>
+      </div>
+  </div> */
+     
+   
+
+ // </Grid>
+        
+            {/* <h2>My Portfolio!</h2>
+
+
+            <Grid 
+            container
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+      
+          >
+            <Grid item xs ="auto"> 
+      
+            
+              <Carousel
+                data={data}
+                time={3500}
+                width="850px"
+                height="800px"
+                captionStyle={captionStyle}
+                radius="10px"
+                slideNumber={true}
+                slideNumberStyle={slideNumberStyle}
+                captionPosition="bottom"
+                automatic={true}
+                dots={true}
+                pauseIconColor="white"
+                pauseIconSize="40px"
+                slideBackgroundColor="darkgrey"
+                slideImageFit="cover"
+                thumbnails={true}
+                thumbnailWidth="250px"
+                style={{
+                  textAlign: "center",
+                  maxWidth: "650px",
+                  maxHeight: "800px",
+                  margin: "40px auto",
+                }}
+              />
+
+
+           </Grid>
+          //  </Grid> */}
+           
+
+           
+           
+          
+        //   </>
+        
+      // )}
+         
+  
+       
+
+       
+
+        
+
+
+
+
+
+
+  
+// export default Portfolio;
